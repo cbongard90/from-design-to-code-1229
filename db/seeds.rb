@@ -1,3 +1,6 @@
+# destroy the old database
+Movie.destroy_all
+
 movies = [
   "batman",
   "superman",
@@ -5,7 +8,11 @@ movies = [
   "wonder woman",
   "thor",
   "black panther",
-  "avengers"
+  "avengers",
+  "harry potter",
+  "star wars",
+  "hobbit",
+  "lord of the rings"
 ]
 
 movies.each do |movie|
